@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a68265580a3814108e99c320e89869a4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a68265580a3814108e99c320e89869a4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a68265580a3814108e99c320e89869a4 = L.map(
+                "map_a68265580a3814108e99c320e89869a4",
+                {
+                    center: [23.685, 90.3563],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_78da6d4416ec0d40178d175a958a7931 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_78da6d4416ec0d40178d175a958a7931.addTo(map_a68265580a3814108e99c320e89869a4);
+        
+    
+            var marker_2d55ea5aaa3d2373ff848a54b84eb71b = L.marker(
+                [23.8103, 90.4125],
+                {
+}
+            ).addTo(map_a68265580a3814108e99c320e89869a4);
+        
+    
+            var icon_6f9b15b334c5eeb0ae0f4ebd62e0d462 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c24e4420e6ac8bcc7e730a1ef666c62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f686ec3c2568bf0969051bfaf4d6936b = $(`<div id="html_f686ec3c2568bf0969051bfaf4d6936b" style="width: 100.0%; height: 100.0%;">Dhaka: No Geothermal Potential</div>`)[0];
+                popup_7c24e4420e6ac8bcc7e730a1ef666c62.setContent(html_f686ec3c2568bf0969051bfaf4d6936b);
+            
+        
+
+        marker_2d55ea5aaa3d2373ff848a54b84eb71b.bindPopup(popup_7c24e4420e6ac8bcc7e730a1ef666c62)
+        ;
+
+        
+    
+    
+                marker_2d55ea5aaa3d2373ff848a54b84eb71b.setIcon(icon_6f9b15b334c5eeb0ae0f4ebd62e0d462);
+            
+    
+            var marker_5f0be97d733d76e9d351786e6841c3a1 = L.marker(
+                [22.3569, 91.7832],
+                {
+}
+            ).addTo(map_a68265580a3814108e99c320e89869a4);
+        
+    
+            var icon_a113af435c1aa4f6fd441f6fe0c966ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8dfdef60eced6392a5dc2b8cb1db8573 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f634af19dbcb1b98d91b81e6822e9f6e = $(`<div id="html_f634af19dbcb1b98d91b81e6822e9f6e" style="width: 100.0%; height: 100.0%;">Chittagong: Geothermal Potential</div>`)[0];
+                popup_8dfdef60eced6392a5dc2b8cb1db8573.setContent(html_f634af19dbcb1b98d91b81e6822e9f6e);
+            
+        
+
+        marker_5f0be97d733d76e9d351786e6841c3a1.bindPopup(popup_8dfdef60eced6392a5dc2b8cb1db8573)
+        ;
+
+        
+    
+    
+                marker_5f0be97d733d76e9d351786e6841c3a1.setIcon(icon_a113af435c1aa4f6fd441f6fe0c966ba);
+            
+    
+            var marker_f5dafd2840927f3e1303aa0ce18c8cea = L.marker(
+                [24.3745, 88.6042],
+                {
+}
+            ).addTo(map_a68265580a3814108e99c320e89869a4);
+        
+    
+            var icon_51015c5a442a098b0d6cb8db2563725d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c82de8a01ce85ede2568905d3b2d5625 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ee1e8092504a58d3658c19ad0374d16 = $(`<div id="html_3ee1e8092504a58d3658c19ad0374d16" style="width: 100.0%; height: 100.0%;">Rajshahi: No Geothermal Potential</div>`)[0];
+                popup_c82de8a01ce85ede2568905d3b2d5625.setContent(html_3ee1e8092504a58d3658c19ad0374d16);
+            
+        
+
+        marker_f5dafd2840927f3e1303aa0ce18c8cea.bindPopup(popup_c82de8a01ce85ede2568905d3b2d5625)
+        ;
+
+        
+    
+    
+                marker_f5dafd2840927f3e1303aa0ce18c8cea.setIcon(icon_51015c5a442a098b0d6cb8db2563725d);
+            
+    
+            var marker_c60711054fcf85ce5af17a1d92b284a6 = L.marker(
+                [22.8456, 89.5403],
+                {
+}
+            ).addTo(map_a68265580a3814108e99c320e89869a4);
+        
+    
+            var icon_0a2d69219028c80122326a4aba952f2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c879dbde672b55e5577a7faa605e9c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b4588642b9bba5aceed5b5242881a57 = $(`<div id="html_0b4588642b9bba5aceed5b5242881a57" style="width: 100.0%; height: 100.0%;">Khulna: Geothermal Potential</div>`)[0];
+                popup_4c879dbde672b55e5577a7faa605e9c0.setContent(html_0b4588642b9bba5aceed5b5242881a57);
+            
+        
+
+        marker_c60711054fcf85ce5af17a1d92b284a6.bindPopup(popup_4c879dbde672b55e5577a7faa605e9c0)
+        ;
+
+        
+    
+    
+                marker_c60711054fcf85ce5af17a1d92b284a6.setIcon(icon_0a2d69219028c80122326a4aba952f2a);
+            
+    
+            var marker_066801b1975ca8fc60cae2919fe192a6 = L.marker(
+                [24.8949, 91.8687],
+                {
+}
+            ).addTo(map_a68265580a3814108e99c320e89869a4);
+        
+    
+            var icon_13b4a808c34db8dbb306efd50210201e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d9f3c88e933d3a3750ce2f577c6675d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b858ea9b05c575db0009426aef23ba13 = $(`<div id="html_b858ea9b05c575db0009426aef23ba13" style="width: 100.0%; height: 100.0%;">Sylhet: Geothermal Potential</div>`)[0];
+                popup_8d9f3c88e933d3a3750ce2f577c6675d.setContent(html_b858ea9b05c575db0009426aef23ba13);
+            
+        
+
+        marker_066801b1975ca8fc60cae2919fe192a6.bindPopup(popup_8d9f3c88e933d3a3750ce2f577c6675d)
+        ;
+
+        
+    
+    
+                marker_066801b1975ca8fc60cae2919fe192a6.setIcon(icon_13b4a808c34db8dbb306efd50210201e);
+            
+    
+            var marker_e8a6c32c30203110af7ec455f0a28274 = L.marker(
+                [22.701, 90.3535],
+                {
+}
+            ).addTo(map_a68265580a3814108e99c320e89869a4);
+        
+    
+            var icon_bca93b83953bc311d8ad5e573b5782b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_30b8e0229667c1dd5e4ef61dc363db57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0efbf1edcf6a2f3a14e17a3141dccf84 = $(`<div id="html_0efbf1edcf6a2f3a14e17a3141dccf84" style="width: 100.0%; height: 100.0%;">Barisal: Geothermal Potential</div>`)[0];
+                popup_30b8e0229667c1dd5e4ef61dc363db57.setContent(html_0efbf1edcf6a2f3a14e17a3141dccf84);
+            
+        
+
+        marker_e8a6c32c30203110af7ec455f0a28274.bindPopup(popup_30b8e0229667c1dd5e4ef61dc363db57)
+        ;
+
+        
+    
+    
+                marker_e8a6c32c30203110af7ec455f0a28274.setIcon(icon_bca93b83953bc311d8ad5e573b5782b0);
+            
+</script>
+</html>
