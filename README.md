@@ -91,6 +91,13 @@ Supports sustainable development of geothermal energy as a renewable source for 
 
 ---
 
+## Future Work
+
+Quantum Gravity-Based Geothermal Exploration in Bangladesh (soon i'll upload the file). Leveraging advancements in quantum field theory, spacetime curvature, and geophysical modeling. 
+
+---
+
+
 ## 🛠️ Installation and Requirements
 
 ### Python Environment
@@ -105,4 +112,7 @@ Install required packages:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow torch gym xgboost
+
+
+
 
